@@ -1,0 +1,27 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.shahwaiz.waweb'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.shahwaiz.waweb"
+        minSdk 21          // Android 5.0+ (5.1.1 = API 22 supported)
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
