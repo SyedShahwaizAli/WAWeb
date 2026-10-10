@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
     // Desktop Chrome user agent: WhatsApp Web ko lagta hai desktop browser hai
     private static final String DESKTOP_UA =
             "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
-                    + "Chrome/95.0.4638.74 Safari/537.36";
+                    + "Chrome/124.0.0.0 Safari/537.36";
 
     private WebView webView;
     private ProgressBar progressBar;
